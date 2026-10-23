@@ -1,0 +1,16 @@
+[project]
+name = "tiny-gpt-project"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "numpy>=2.5.4",
+    "scipy>=1.18.1",
+    "torch>=2.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "rust-just>=1.59.0",
+]
